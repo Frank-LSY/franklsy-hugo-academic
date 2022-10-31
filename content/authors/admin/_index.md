@@ -42,18 +42,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/
   - icon: github
     icon_pack: fab
     link: https://github.com/Frank-LSY
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/%E4%B9%A6%E5%AE%87-%E5%8D%A2-00ab58160/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -69,8 +63,8 @@ email: 'franklu3517@foxmail.com'
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My undergraduate study in computer science and technology major of Central China Normal University (2015-2019). I have exchanged and studied at UC San Diego for one semester from March 2018 to June 2018. I have worked as an intern in the Computational Biology and Computational Chemistry Laboratory of the University of Science and Technology of China from July 2018 to December 2018. I received the master's degree in Biomedical Informatics from the University of Pittsburgh, School of Medicine. Under the supervision of Dr. Xinghua Lu, my works mainly focus on medical data analysis and text mining. I'm currently working in CETC, mainly engaged in front-end software development, data mining, data analysis and web design.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+本科就读于华中师范大学计算机科学与技术专业（2015-2019）。曾于2018.3-2018.6在UC San Diego交流学习一学期。曾于2018.7-2018.12在中国科学技术大学计算生物与计算化学实验室实习。硕士就读于匹兹堡大学医学院生物医学信息学，师从 Dr.Xinghua Lu。主要从事医疗数据及文本挖掘工作。目前工作于CETC，主要从事前端软件开发，数据挖掘分析，网页设计等工作。
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV-Shuyu Lu.pdf" "newtab" >}}CV{{< /staticref >}}.
