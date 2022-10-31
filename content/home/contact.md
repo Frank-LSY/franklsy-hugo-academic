@@ -6,23 +6,23 @@ widget: contact
 headless: true
 
 # Order that this section appears on the page.
-weight: 130
+weight: 60
 
 title: Contact
 subtitle:
 
 content:
   # Automatically link email and phone or display as text?
-  autolink: true
+  # autolink: true
 
   # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+  # form:
+  #   provider: netlify
+  #   formspree:
+  #     id:
+  #   netlify:
+  #     # Enable CAPTCHA challenge to reduce spam?
+  #     captcha: false
 
   # Contact details (edit or remove options as required)
   email: franklu3517@foxmail.com
@@ -31,10 +31,10 @@ content:
       icon_pack: fab
       name: github
       link: 'https://github.com/Frank-LSY'
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+    - icon: linkedin
+      icon_pack: fab
+      name: linkedIn
+      link: https://www.linkedin.com/in/%E4%B9%A6%E5%AE%87-%E5%8D%A2-00ab58160/
 
 design:
   columns: '2'
