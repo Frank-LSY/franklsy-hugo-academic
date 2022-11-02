@@ -1,9 +1,9 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: SOFA Score Analysis of Cardiac Arrest Patients
+summary: Pipeline for Data Cleaning and Aggregation + Traditional Statistical Analysis
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Data Mining
+date: '2019-12-26T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

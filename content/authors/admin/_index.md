@@ -14,15 +14,15 @@ organizations:
     url: 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests data analysis, data interpretation, big data mining, front-end designing.
+bio: My research interests are data analysis, data interpretation, big data mining, front-end designing.
 
 # Interests to show in About widget
 interests:
   - Data Analysis
-  - data interpretation
-  - big data mining
-  - front-end designing
-  - statistics
+  - Data Interpretation
+  - Big Data Mining
+  - Front-End Designing
+  - Statistics
 
 # Education to show in About widget
 education:

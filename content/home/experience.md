@@ -14,7 +14,7 @@ subtitle:
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+date_format: Aug 2021
 
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
@@ -25,7 +25,7 @@ experience:
   - title: Software Development Engineer
     company: CETC
     company_url: ''
-    company_logo: org-gc
+    company_logo: org-38
     location: hefei, Anhui, China
     date_start: '2021-08-01'
     date_end: ''

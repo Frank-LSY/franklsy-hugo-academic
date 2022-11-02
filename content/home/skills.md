@@ -26,15 +26,11 @@ feature:
     name: Data Analysis
   - description: |2-
       - HTML, CSS, JavaScript, TypeScript
-      - Elment-ui, Ant-Design, tailwindCSS
+      - Elment-UI, Ant-Design, tailwindCSS
       - Vue, React
     icon: dev
     icon_pack: fab
     name: Front-End Development
-  - description: 100%
-    icon: chart-line
-    icon_pack: fas
-    name: Statistics
 design:
   columns: '2'
 # Uncomment to use emoji icons.
