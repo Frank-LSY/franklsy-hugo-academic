@@ -1,6 +1,6 @@
 ---
 title: SOFA Score Analysis of Cardiac Arrest Patients
-summary: Pipeline for Data Cleaning and Aggregation + Traditional Statistical Analysis
+summary: Pipeline for Data Cleaning and Aggregation & Traditional Statistical Analysis
 tags:
   - Data Mining
 date: '2019-12-26T00:00:00Z'
@@ -9,14 +9,9 @@ date: '2019-12-26T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: https://rebelem.com/sepsis-3-0/sofa-score/
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
 url_slides: ''
