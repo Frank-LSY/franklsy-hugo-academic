@@ -21,3 +21,6 @@ url_video: ''
 slides: example
 ---
 
+- We analyzed structured EHR data of heart failure patients from UPMC, 2014-2019 to explore the feasibility of interpreting clinical characteristics data using interpretable machine learning methods.
+- Based on XGBoost Regression, a model was developed to predict EF scores of heart failure patients using structured EHR data; the practical implications of the model and prediction results were explained using the SHAP(a model-independent interpretable machine learning method); supervised clustering was performed using the generated SHAP values, and dimensionality reduction visualization was performed using t-SNE; analyzed the correlation between EHR features in an attempt to delineate different heart failure patient subgroups.
+- There's a detailed working process of data pre-processing work created by [Dr. Ruoyu Chen](https://github.com/ruoyu-chen). You can refer to it [here]({{< ref "reference/pre-processing.md" >}}).

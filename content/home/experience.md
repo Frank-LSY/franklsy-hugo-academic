@@ -14,7 +14,7 @@ subtitle:
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Aug 2021
+date_format: Jan 2006
 
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
@@ -26,14 +26,30 @@ experience:
     company: CETC
     company_url: ''
     company_logo: org-38
-    location: hefei, Anhui, China
+    location: Hefei, Anhui, China
     date_start: '2021-08-01'
     date_end: ''
     description: |2-
         Responsibilities include:
-        - front-end software development
-        - data analysis & mining
-        - web design
+        - Front-End Software Development
+        - Data Analysis & Mining
+        - Web Design
+  
+
+  - title: Research Assistant
+    company: USTC -- Computational Biology and Computational Chemistry Lab
+    company_url: ''
+    company_logo: org-ustc
+    location: Hefei, Anhui, China
+    date_start: '2018-07-01'
+    date_end: '2018-12-01'
+    description: |2-
+        Responsibilities include:
+        - Data Accessment from TCGA
+        - Data Cleaning and Aggregation 
+        - Data Analysis and Mining
+
+
 design:
   columns: '2'
 ---

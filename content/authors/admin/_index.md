@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Frank-Lu (卢书宇)
+title: Shuyu Lu (卢书宇)
 
 # Is this the primary user of the site?
 superuser: true

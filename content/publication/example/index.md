@@ -11,10 +11,6 @@ authors:
   - Mia Beilovsky
   - Xinghua Lu
 
-# Author notes (optional)
-author_notes:
-  - 
-  - 'Computer School, Beijing Information Science & Technology University, Beijing, China'
 
 date: '2021-10-31T00:00:00Z'
 
