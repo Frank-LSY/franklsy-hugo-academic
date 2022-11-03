@@ -6,7 +6,7 @@ title: Frank-Lu (卢书宇)
 superuser: true
 
 # Role/position/tagline
-role: Big Data R&D Engineer
+role: Software Development Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -66,8 +66,19 @@ email: 'franklu3517@foxmail.com'
 highlight_name: true
 ---
 
-My undergraduate study in computer science and technology major of Central China Normal University (2015-2019). I have exchanged and studied at UC San Diego for one semester from March 2018 to June 2018. I have worked as an intern in the Computational Biology and Computational Chemistry Laboratory of the University of Science and Technology of China from July 2018 to December 2018. I received the master's degree in Biomedical Informatics from the University of Pittsburgh, School of Medicine. Under the supervision of Dr. Xinghua Lu, my works mainly focus on medical data analysis and text mining. I'm currently working in CETC, mainly engaged in front-end software development, data mining, data analysis and web design.
+I graduated from the University of Pittsburgh, Department of Biomedical Informatics with an M.S. degree in 2021. During my master's period, I did research under the supervision of Prof. Xinghua Lu, with the main focus on medical data analysis and text mining with interpretable machine learning and deep learning method. Besides, I also learned experience of basic big data skills, web-app design and development, and constructing machine learning models from zero.
 
-本人本科就读于华中师范大学计算机科学与技术专业（2015-2019）。曾于2018.3-2018.6在UC San Diego交流学习一学期。并在2018.7-2018.12在中国科学技术大学计算生物与计算化学实验室实习。硕士就读于匹兹堡大学医学院生物医学信息学专业(2019-2021)，师从 Dr.Xinghua Lu。主要从事医疗数据及文本挖掘工作。目前工作于CETC(中国电科)，主要从事前端软件开发，数据挖掘分析，网页设计等工作。
+Currently, I'm working at CETC as a software development engineer. I engaged in web-app design and development, data analysis, and data mining.
+
+I'm now looking for a doctoral program. My interests lie in applying data mining and AI in healthcare and medical research, or anything related to that.
+
+<!-- There are indeed some fancy ideas in my mind, like:
+  - For most chronic diseases, the start point of causes is often tiny and it's not easy for us to feel, however, I believe the causes are mostly buried in those patients' medical records, include those  . -->
+
+我于2021年毕业于匹兹堡大学生物医学信息学系，获得硕士学位。在硕士期间，我有幸在Prof. Xinghua Lu 的指导下进行研究，主要方向是用可解释的机器学习和深度学习方法进行医学数据分析和文本挖掘。此外，在匹兹堡大学和卡耐基梅隆大学，我还学习了基本的大数据技能、网络应用程序设计和开发。同时我还有从零开始构建机器学习和简单深度学习强化学习模型的经验。
+
+目前，我在中国电科38所工作，担任软件开发工程师。主要从事网络应用程序设计和开发，数据分析和数据挖掘。
+
+我现在正在寻找一个博士就读机会。我的主要研究兴趣在于将数据挖掘和人工智能应用于医疗保健和医学研究，或一些与此相关的课题方向。
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV-Shuyu Lu.pdf" "newtab" >}}CV{{< /staticref >}}.
