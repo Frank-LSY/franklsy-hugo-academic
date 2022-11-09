@@ -1,6 +1,6 @@
 ---
 title: SOFA Score Analysis of Cardiac Arrest Patients
-summary: Pipeline for Data Cleaning and Aggregation & Traditional Statistical Analysis
+summary: Pipeline for Data Cleaning, Aggregation & Traditional Statistical Analysis
 tags:
   - Data Mining
 date: '2019-12-26T00:00:00Z'
@@ -22,7 +22,6 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
 ---
 
 [What is SOFA score? ](https://en.wikipedia.org/wiki/SOFA_score)

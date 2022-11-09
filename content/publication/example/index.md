@@ -71,8 +71,5 @@ projects:
 Click the _Cite_ button above to import publication metadata into their reference management software.
 {{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
 
 Supplementary notes can be added here, including [code, data](https://github.com/Frank-LSY/XGB-SHAP-EHR-EF).

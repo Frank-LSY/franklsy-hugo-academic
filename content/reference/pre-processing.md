@@ -12,7 +12,6 @@ date: '2021-05-29T00:00:00Z'
 
 ---
 
-
 ## 0. GitHub项目说明
 
 - 本项目[(ehr4hf)](https://github.com/ruoyu-chen/ehr4hf)使用Java语言、基于Spring Boot框架实现，
@@ -39,7 +38,7 @@ date: '2021-05-29T00:00:00Z'
 |9| PATIENT_VITALS|      198M    | 3970630 |约四百万条，内容为患者的部分生命体征检查结果|
 |10| PROBLEM_LIST |      94M     | 1087067 |约一百万条，内容为患者的自述问题，形式为ICD编码|
 
-可以看到，数据的总规模大约为一亿八千万条记录，但其中各类数据分布并不均匀，数据分布及数据格式见[文档](docs/rawdata.md)
+可以看到，数据的总规模大约为一亿八千万条记录，但其中各类数据分布并不均匀。
 
 ## 2. 系统架构及处理流程  
 ### 2.1 系统架构  
@@ -98,7 +97,7 @@ date: '2021-05-29T00:00:00Z'
 然后再针对具体的训练任务提取对应的预测目标标注值。  
 为此，本项目的数据处理流程如下图所示：
 
-![图1 数据处理流程图](imgs/img1.png)
+![图1 数据处理流程图](../imgs/img1.png)
 
 具体来说，目前的数据处理流程被划分为四个流水线段，分别为：  
 
@@ -121,7 +120,7 @@ date: '2021-05-29T00:00:00Z'
 
 RawProcComponent类的数据处理流程可以简要地用如下地流程图来表示。
 
-![图2 数据预处理流程图](imgs/img2.png)
+![图2 数据预处理流程图](../imgs/img2.png)
 
 描述如下：  
 （1）生成待处理的文件列表。
@@ -196,7 +195,7 @@ ORD_VALUE和ORD_NUM_VALUE分别是非数值类型和数值类型的检查项的�
 在 "患者数据聚集" 流水段中，已经把同一个患者的所有数据存储到患者个人的目录下，
 因此数据向量化、预测目标提取、tfrecords格式数据导出等任务都是在患者级别对数据进行的处理。
 "数据向量化和预测目标提取"由VectorizeComponent类实现，执行流程类似于"数据预处理"，执行流程如下图所示：
-![图3 数据向量化和预测目标提取流程图](imgs/img3.png)
+![图3 数据向量化和预测目标提取流程图](../imgs/img3.png)
 
 从上图可以看到，VectorizeComponent以患者为单位进行数据处理。  
 （1）首先，对患者的人口学数据和Encounters数据进行单独的解析。  
@@ -234,7 +233,7 @@ ORD_VALUE和ORD_NUM_VALUE分别是非数值类型和数值类型的检查项的�
 目前只提供了一种实现：cn.edu.bistu.cs.ehr4hf.vectorizers.SimplePatVectorizer。
 当前的输出方案可以用下图来加以简单解释：  
 
-![图4 训练样本的输出方案图解](imgs/img4.png)  
+![图4 训练样本的输出方案图解](../imgs/img4.png)  
 
 具体来说，目前使用的 SimplePatVectorizer，会逐个遍历患者数据中的预测目标，
 为每一个预测目标（包含了预测目标的类型枚举值、预测目标发生的日期、预测目标的标注值）调用对应的输出函数进行输出。
@@ -263,7 +262,7 @@ TFRecord使用的protobuf序列化格式包括两个：
 [example](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/example/example.proto).
 具体的格式可以用下图来解释：
 
-![图5 TFRecords格式图解](imgs/img5.png)  
+![图5 TFRecords格式图解](../imgs/img5.png)  
 
 即，TFRecords文件的二进制数据是由Example序列组成的，而Example是由Feature列表组成的，Feature则是由键值对组成的，
 TFRecords支持bytes，float和int64列表在内的特征值。  
@@ -282,7 +281,7 @@ Notes的向量化目前有两种方案: TF-IDF提取主题词并经PCA降维到�
 
 在上述数据的基础上，为了完成 30天重入院 的预测任务，设计了如下图所示的基线模型：  
 
-![图6 基线神经网络模型架构图解](imgs/img6.png)  
+![图6 基线神经网络模型架构图解](../imgs/img6.png)  
 
 基线模型在不同的超参数组合下的性能表现：
 
