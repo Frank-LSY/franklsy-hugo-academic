@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: ocean
-  theme_night: ocean
-  font: minimal
+  theme_day: 1950s
+  theme_night: 1950s
+  font: Cyberpunk
   font_size: L
 
 # SEO
@@ -32,10 +32,10 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: r
     show_logo: true
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: true
 
