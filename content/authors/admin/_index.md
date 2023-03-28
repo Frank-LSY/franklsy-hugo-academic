@@ -72,7 +72,7 @@ I've got about 2 years of experience working at CETC as a software development e
 
 Currently, I'm working at the Department of Public Health, Medical School, Zhejiang University as a research assistant under the supervision of Prof. Xifeng Wu(吴息凤) and Wenyuan Li(李文渊). Our big goal is to build an AI-based system for helping physicians monitor and manage chronic diseases, especially visceral cancers. I'm now working on applying modern and popular machine learning and deep learning method in abdominal adipose tissue segmentation and detection.
 
-I'm now looking for a doctoral program. My interests lie in applying data mining and AI in healthcare and medical research, or anything related to that.
+I'm now looking for a Ph.D. position. My interests lie in applying data mining and AI in healthcare and medical research, or anything related to that.
 
 <!-- There are indeed some fancy ideas in my mind, like:
   - For most chronic diseases, the start point of causes is often tiny and it's not easy for us to feel, however, I believe the causes are mostly buried in those patients' medical records, include those  . -->
