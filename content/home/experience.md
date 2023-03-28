@@ -22,13 +22,26 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Research Assistant
+    company: Zhejiang University(浙江大学)
+    company_url: ''
+    company_logo: org-zju
+    location: Hangzhou, Zhejiang, China
+    date_start: '2023-03-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        - Medical Image Segmentation
+
+
+
   - title: Software Development Engineer
     company: CETC
     company_url: ''
     company_logo: org-38
     location: Hefei, Anhui, China
     date_start: '2021-08-01'
-    date_end: ''
+    date_end: '2023-02-26'
     description: |2-
         Responsibilities include:
         - Front-End Software Development
